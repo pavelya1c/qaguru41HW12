@@ -1,14 +1,13 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
 import pages.components.CalendarComponent;
 import pages.components.FormFieldEasyFormComponent;
 import pages.components.FormFieldHardFormComponent;
 
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selectors.byLinkText;
+import static com.codeborne.selenide.Condition.cssClass;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
